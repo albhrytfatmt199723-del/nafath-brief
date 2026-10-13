@@ -21,7 +21,20 @@ Resource: OWASP - Mobile Application Security Verification Standard (MASVS) - ht
 
 
 Networking
+BGP route hijacking occurs when an autonomous system announces incorrect internet routing information, potentially causing traffic to follow an unintended path. Resource Public Key Infrastructure (RPKI) helps networks validate whether an autonomous system is authorized to originate a particular IP prefix. However, RPKI origin validation does not verify the entire AS path or prevent every routing attack. Networks must also configure routing policies and monitor suspicious announcements.
+
+Resource: RFC 6811 - BGP Prefix Origin Validation - https://www.rfc-editor.org/rfc/rfc6811
+
 Cybersecurity
+Log4Shell (CVE-2021-44228) was a critical vulnerability in Apache Log4j 2, a widely used Java logging library. Under vulnerable conditions, an attacker could exploit specially crafted input to trigger remote code execution on an affected system. Its widespread use and potential for severe compromise made it especially dangerous. Organizations should upgrade to a fixed Log4j version appropriate to their environment and verify that vulnerable applications are no longer exposed.
+
+Resource: Apache Log4j Security Vulnerabilities - https://logging.apache.org/log4j/2.x/security.html
+
 Data
+A Software Bill of Materials (SBOM) is a structured inventory of the components used to build a software product. It helps organizations identify dependencies and assess whether known vulnerabilities affect their systems. The NTIA identifies minimum elements including supplier name, component name, component version, other unique identifiers, dependency relationships, the SBOM data author, and a timestamp. Maintaining an accurate SBOM improves software supply-chain visibility and supports vulnerability response.
+
+Resource: NTIA - The Minimum Elements for a Software Bill of Materials (SBOM) - https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom
+
+
 Misconception in My Track
 Open Question
