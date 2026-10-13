@@ -37,4 +37,10 @@ Resource: NTIA - The Minimum Elements for a Software Bill of Materials (SBOM) - 
 
 
 Misconception in My Track
+A common misconception in software development is that storing passwords and API keys in source code is safe as long as the GitHub repository is private. This is incorrect because repository access can change, and secrets may be exposed through sharing or accidental disclosure. The Twelve-Factor App methodology recommends separating configuration from code and storing configuration in the environment. Developers should avoid hard-coding secrets and use appropriate secret-management practices. The evidence for this correction is in the “III. Config” section of The Twelve-Factor App, which explains why configuration should be separated from code.
+
+
 Open Question
+How can software development teams manage API keys and database credentials securely across development, testing, and production environments while preventing accidental exposure?
+
+
