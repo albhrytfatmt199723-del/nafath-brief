@@ -1,7 +1,6 @@
-CHANGELOG
-51a11c0 skeleton: NAFATH-V4
-078cf19 overview: connect the six subtopics
-847990d research: software, ai, mobile
-0aed64f research: networking, cybersecurity, data
-0b29a04 analysis: misconception and open question
-03d85c0 revise: overview  
+- 51a11c0 skeleton: NAFATH-V4
+- 078cf19 overview: connect the six subtopics
+- 847990d research: software, ai, mobile
+- 0aed64f research: networking, cybersecurity, data
+- 0b29a04 analysis: misconception and open question
+- 03d85c0 revise: overview
